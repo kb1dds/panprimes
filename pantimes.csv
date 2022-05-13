@@ -1,0 +1,23 @@
+name,cpu,cores,freq_MHz,OS,options,real_time,user_time
+candy,Celeron N2840,2,2583,Ubuntu 20.04,,68.04,67.71
+candy,Celeron N2840,2,2583,Ubuntu 20.04,O,20.36,20.16
+candy,Celeron N2840,2,2583,Ubuntu 20.04,O2,19.347,18.899
+candy,Celeron N2840,2,2583,Ubuntu 20.04,O3,18.908,18.868
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,,69.68,69.28
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O,29.607,29.603
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O2,27.658,27.639
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O3,25.154,25.134
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,,4.346,4.346
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O,4.292,4.292
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O2,4.29,4.284
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O3,4.292,4.288
+mr_phone,ARMv7,4,1500,Android 10,,159.56,159.3
+mr_phone,ARMv7,4,1500,Android 10,O,107.7,107.39
+mr_phone,ARMv7,4,1500,Android 10,O2,104.87,104.61
+mr_phone,ARMv7,4,1500,Android 10,O3,104,103.7
+palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,,16.377,16.372
+palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O,7.618,7.614
+palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O2,7.123,7.123
+palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O3,6.684,6.68
+melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,,124588.27,88296.38
+melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,O2,,
