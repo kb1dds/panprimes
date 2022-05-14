@@ -25,3 +25,7 @@ tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,,20.029,19.977
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O,9.508,9.453
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O2,8.555,8.548
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O3,8.014,8.012
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,,10.835,10.833
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O,7.003,6.999
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O2,6.99,6.987
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O3,4.732,4.726
