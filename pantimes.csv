@@ -15,10 +15,10 @@ mr_phone,ARMv7,4,1500,Android 10,,159.56,159.3
 mr_phone,ARMv7,4,1500,Android 10,O,107.7,107.39
 mr_phone,ARMv7,4,1500,Android 10,O2,104.87,104.61
 mr_phone,ARMv7,4,1500,Android 10,O3,104,103.7
-palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,,16.377,16.372
-palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O,7.618,7.614
-palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O2,7.123,7.123
-palantir,Core i7-3820,8,3712.761,Ubuntu 20.04,O3,6.684,6.68
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,,16.377,16.372
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,O,7.618,7.614
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,O2,7.123,7.123
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,O3,6.684,6.68
 melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,,124588.27,88296.38
 melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,O2,,
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,,20.029,19.977
@@ -29,3 +29,7 @@ zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,,10.835,10.833
 zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O,7.003,6.999
 zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O2,6.99,6.987
 zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O3,4.732,4.726
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,,14.145,14.143
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O,5.801,5.789
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O2,5.76,5.755
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O3,4.3,4.296
