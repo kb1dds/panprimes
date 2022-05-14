@@ -33,3 +33,7 @@ dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,,14.145,14.143
 dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O,5.801,5.789
 dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O2,5.76,5.755
 dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O3,4.3,4.296
+pi3B,ARMv7,4,1200,Raspbian 10,,176.179,176.179
+pi3B,ARMv7,4,1200,Raspbian 10,O,111.589,111.589
+pi3B,ARMv7,4,1200,Raspbian 10,O2,105.325,105.306
+pi3B,ARMv7,4,1200,Raspbian 10,O3,108.494,108.436
