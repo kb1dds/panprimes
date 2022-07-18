@@ -1,39 +1,83 @@
-name,cpu,cores,freq_MHz,OS,options,real_time,user_time
-candy,Celeron N2840,2,2583,Ubuntu 20.04,,68.04,67.71
-candy,Celeron N2840,2,2583,Ubuntu 20.04,O,20.36,20.16
-candy,Celeron N2840,2,2583,Ubuntu 20.04,O2,19.347,18.899
-candy,Celeron N2840,2,2583,Ubuntu 20.04,O3,18.908,18.868
-mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,,69.68,69.28
-mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O,29.607,29.603
-mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O2,27.658,27.639
-mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,O3,25.154,25.134
-mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,,4.346,4.346
-mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O,4.292,4.292
-mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O2,4.29,4.284
-mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,O3,4.292,4.288
-mr_phone,ARMv7,4,1500,Android 10,,159.56,159.3
-mr_phone,ARMv7,4,1500,Android 10,O,107.7,107.39
-mr_phone,ARMv7,4,1500,Android 10,O2,104.87,104.61
-mr_phone,ARMv7,4,1500,Android 10,O3,104,103.7
-palantir,Core i7-3820,8,3500,Ubuntu 20.04,,16.377,16.372
-palantir,Core i7-3820,8,3500,Ubuntu 20.04,O,7.618,7.614
-palantir,Core i7-3820,8,3500,Ubuntu 20.04,O2,7.123,7.123
-palantir,Core i7-3820,8,3500,Ubuntu 20.04,O3,6.684,6.68
-melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,,124588.27,88296.38
-melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,O2,,
-tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,,20.029,19.977
-tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O,9.508,9.453
-tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O2,8.555,8.548
-tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,O3,8.014,8.012
-zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,,10.835,10.833
-zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O,7.003,6.999
-zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O2,6.99,6.987
-zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,O3,4.732,4.726
-dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,,14.145,14.143
-dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O,5.801,5.789
-dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O2,5.76,5.755
-dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,O3,4.3,4.296
-pi3B,ARMv7,4,1200,Raspbian 10,,176.179,176.179
-pi3B,ARMv7,4,1200,Raspbian 10,O,111.589,111.589
-pi3B,ARMv7,4,1200,Raspbian 10,O2,105.325,105.306
-pi3B,ARMv7,4,1200,Raspbian 10,O3,108.494,108.436
+name,cpu,cores,freq_MHz,OS,compiler,version,options,real_time,user_time
+candy,Celeron N2840,2,2583,Ubuntu 20.04,gcc,9.4.0,,68.04,67.71
+candy,Celeron N2840,2,2583,Ubuntu 20.04,gcc,9.4.0,O,20.36,20.16
+candy,Celeron N2840,2,2583,Ubuntu 20.04,gcc,9.4.0,O2,19.347,18.899
+candy,Celeron N2840,2,2583,Ubuntu 20.04,gcc,9.4.0,O3,18.908,18.868
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,gcc,9.4.0,,69.68,69.28
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,gcc,9.4.0,O,29.607,29.603
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,gcc,9.4.0,O2,27.658,27.639
+mr_burner,Core M-5Y71,4,1200,Ubuntu 20.04,gcc,9.4.0,O3,25.154,25.134
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,gcc,9.4.0,,4.346,4.346
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,gcc,9.4.0,O,4.292,4.292
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,gcc,9.4.0,O2,4.29,4.284
+mr_desktop,Core i5-8500T,6,2100,Ubuntu 20.04,gcc,9.4.0,O3,4.292,4.288
+mr_phone,ARMv7,4,1500,Android 10,gcc,7.5.0,,159.56,159.3
+mr_phone,ARMv7,4,1500,Android 10,gcc,7.5.0,O,107.7,107.39
+mr_phone,ARMv7,4,1500,Android 10,gcc,7.5.0,O2,104.87,104.61
+mr_phone,ARMv7,4,1500,Android 10,gcc,7.5.0,O3,104,103.7
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,,16.377,16.372
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,O,7.618,7.614
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,O2,7.123,7.123
+palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,O3,6.684,6.68
+melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,gcc,3.3.6,,124588.27,88296.38
+melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,gcc,3.3.6,O2,109563.31,86607.3
+tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,,20.029,19.977
+tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,O,9.508,9.453
+tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,O2,8.555,8.548
+tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,O3,8.014,8.012
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,gcc,11.2.0,,10.835,10.833
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,gcc,11.2.0,O,7.003,6.999
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,gcc,11.2.0,O2,6.99,6.987
+zir_laptop,Core i7-7200U,4,2500,Ubuntu 21.10,gcc,11.2.0,O3,4.732,4.726
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,gcc,9.4.0,,14.145,14.143
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,gcc,9.4.0,O,5.801,5.789
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,gcc,9.4.0,O2,5.76,5.755
+dd_lenovo,Core i5-8250U,8,1600,Ubuntu 20.04,gcc,9.4.0,O3,4.3,4.296
+pi3B,ARMv7,4,1200,Raspbian 10,gcc,8.3.0,,176.179,176.179
+pi3B,ARMv7,4,1200,Raspbian 10,gcc,8.3.0,O,111.589,111.589
+pi3B,ARMv7,4,1200,Raspbian 10,gcc,8.3.0,O2,105.325,105.306
+pi3B,ARMv7,4,1200,Raspbian 10,gcc,8.3.0,O3,108.494,108.436
+pi4B,ARMv7,4,1500,Raspbian 10,gcc,8.3.0,,99.334,99.319
+pi4B,ARMv7,4,1500,Raspbian 10,gcc,8.3.0,O,67.43,67.729
+pi4B,ARMv7,4,1500,Raspbian 10,gcc,8.3.0,O2,67.272,67.241
+pi4B,ARMv7,4,1500,Raspbian 10,gcc,8.3.0,O3,67.17,67.165
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.29,2.28
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.29,2.28
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,,2.28,2.27
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.4,1.17
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.37,1.17
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O2,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.28,1.17
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
+arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
