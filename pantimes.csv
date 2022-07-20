@@ -21,6 +21,7 @@ palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,O2,7.123,7.123
 palantir,Core i7-3820,8,3500,Ubuntu 20.04,gcc,9.4.0,O3,6.684,6.68
 melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,gcc,3.3.6,,124588.27,88296.38
 melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,gcc,3.3.6,O2,109563.31,86607.3
+melkor,vaxstation 3520,2,12.5,OpenBSD 5.8,gcc,3.3.6,O3,110229.15,84576.1
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,,20.029,19.977
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,O,9.508,9.453
 tsr_laptop,Core i5-2520M,4,2500,Ubuntu 20.04,gcc,9.4.0,O2,8.555,8.548
