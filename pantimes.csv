@@ -82,3 +82,7 @@ arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
 arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
 arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.16,1.15
 arm64-apple,ARM64 (M1),10,3200,Darwin 21.5.0,clang,13.1.6,O3,1.15,1.14
+robinm-sparc,sun4c,1,40,NetBSD 1.4.2,egcs,1.1.1,,53437.46,53079.7
+robinm-sparc,sun4c,1,40,NetBSD 1.4.2,egcs,1.1.1,O,8771.26,8725.33
+robinm-sparc,sun4c,1,40,NetBSD 1.4.2,egcs,1.1.1,O2,8026.36,7984.99
+robinm-sparc,sun4c,1,40,NetBSD 1.4.2,egcs,1.1.1,O3,8025.53,7983.57
