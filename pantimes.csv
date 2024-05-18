@@ -90,3 +90,7 @@ mr_pixel4,aarch64,8,2500,Android 13,gcc,11.4.0,,10.065,10.031
 mr_pixel4,aarch64,8,2500,Android 13,gcc,11.4.0,O,8.734,8.704
 mr_pixel4,aarch64,8,2500,Android 13,gcc,11.4.0,O2,8.724,8.692
 mr_pixel4,aarch64,8,2500,Android 13,gcc,11.4.0,O3,6.557,6.512
+pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,,12.428,12.424
+pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O,6.578,6.57
+pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O2,6.722,6.712
+pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O3,6.666,6.66
