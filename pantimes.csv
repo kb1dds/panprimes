@@ -94,3 +94,7 @@ pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,,12.428,12.424
 pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O,6.578,6.57
 pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O2,6.722,6.712
 pi5,aarch64,4,2400,Raspberry Pi OS,gcc,12.2.0,O3,6.666,6.66
+tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,,5.289,5.289
+tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O,2.763,2.763
+tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O2,2.759,2.759
+tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O3,2.634,2.629
