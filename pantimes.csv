@@ -98,3 +98,11 @@ tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,,5.289,5.289
 tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O,2.763,2.763
 tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O2,2.759,2.759
 tsr-new,Core i3-1115G4,4,3000,Ubuntu 22.04,gcc,11.4.0,O3,2.634,2.629
+ear-gaming,Core i5-12450H (hyperthreading),12,2800,Ubuntu 24.04,gcc,13.2.0,,3.463,3.463
+ear-gaming,Core i5-12450H (hyperthreading),12,2800,Ubuntu 24.04,gcc,13.2.0,O,2.484,2.483
+ear-gaming,Core i5-12450H (hyperthreading),12,2800,Ubuntu 24.04,gcc,13.2.0,O2,2.544,2.543
+ear-gaming,Core i5-12450H (hyperthreading),12,2800,Ubuntu 24.04,gcc,13.2.0,O3,2.471,4.266
+ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,,3.46,3.458
+ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O,2.479,2.479
+ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O2,2.523,2.521
+ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O3,2.454,2.453
