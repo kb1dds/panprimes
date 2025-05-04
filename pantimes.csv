@@ -106,3 +106,7 @@ ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,,3.
 ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O,2.479,2.479
 ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O2,2.523,2.521
 ear-gaming,Core i5-12450H (no hyperthreading),8,4100,Ubuntu 24.04,gcc,13.2.0,O3,2.454,2.453
+mr-new-hp,Core Ultra 7 155U,14,1400,Ubuntu 24.04,gcc,13.3.0,,2.99,2.98
+mr-new-hp,Core Ultra 7 155U,14,1400,Ubuntu 24.04,gcc,13.3.0,O,2.30,2.30
+mr-new-hp,Core Ultra 7 155U,14,1400,Ubuntu 24.04,gcc,13.3.0,O2,2.30,2.30
+mr-new-hp,Core Ultra 7 155U,14,1400,Ubuntu 24.04,gcc,13.3.0,O3,2.254,2.253
